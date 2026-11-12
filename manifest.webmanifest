@@ -1,0 +1,25 @@
+{
+  "name": "역사 백지 인출 학습장",
+  "short_name": "역사 인출",
+  "description": "시험범위 주제 16, 24~34 백지 인출·빈칸·연표 반복 학습",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#2747a8",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
