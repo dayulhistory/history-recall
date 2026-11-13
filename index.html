@@ -280,6 +280,7 @@ function renderBlank(){
     num++;
     html+=`<p class="sent"><span class="num">${num}</span>`+it.parts.map((p,pi)=>{
       if(typeof p==="string")return esc(p);
+      if(p.fixed)return esc(p.ans[0]); // 빈칸에서 제외한 키워드·연도는 기본 글씨
       if(!it.pick.has(pi))return `<b>${esc(p.ans[0])}</b>`;
       words.push(p.ans[0]);const w=Math.max(4,p.ans[0].length*1.15+1);
       return `<input class="fill" type="text" id="f${k}" data-i="${ii}" data-p="${pi}" data-k="${k++}" style="width:${w}em" aria-label="빈칸 ${k}" autocomplete="off">`;
