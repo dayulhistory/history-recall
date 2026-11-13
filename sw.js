@@ -1,5 +1,5 @@
-// 내용을 고쳐 다시 올릴 때는 아래 버전 숫자만 올려 주세요 (v1 → v2).
-const CACHE = "history-recall-v1";
+// 내용을 고쳐 다시 올릴 때는 아래 버전 숫자만 올려 주세요 (v2 → v3).
+const CACHE = "history-recall-v2";
 const FILES = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", e => {
